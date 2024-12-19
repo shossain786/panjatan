@@ -5,7 +5,7 @@ class AnimatedCard extends StatelessWidget {
   final String category;
   final String date;
 
-  const AnimatedCard({
+  const AnimatedCard({super.key, 
     required this.content,
     required this.category,
     required this.date,
